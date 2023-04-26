@@ -1,0 +1,61 @@
+@import '../abstracts/variables';
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    @media (min-width: 481px) { 
+        max-width: 768px;
+    }
+
+    @media (min-width: 992px) { 
+        max-width: 1200px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: $color-white;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+} 
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-style: bold;
+    font-weight: 700;
+} 
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+} 
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff') format('woff');
+    font-style: bold;
+    font-weight: 700;
+} 
+
+
+
+
