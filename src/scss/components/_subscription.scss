@@ -1,0 +1,31 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+.subscription {
+  margin-top: 14px;
+  background: url(/src/img/subscription/baground-subscription.jpg);
+}
+
+.subscription-tittle {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: $color-white;
+  text-align: center;
+}
+
+.subscription-list {
+  position: relative;
+  border: 1px solid red;
+  background: $color-white;
+  mix-blend-mode: normal;
+  opacity: 0.11;
+}
+
+.name-subscription {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
