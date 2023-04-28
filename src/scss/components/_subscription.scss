@@ -8,24 +8,105 @@
 
 .subscription-tittle {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 42px;
   color: $color-white;
   text-align: center;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 48px;
 }
 
 .subscription-list {
-  position: relative;
-  border: 1px solid red;
-  background: $color-white;
+  background: rgba(203, 203, 202, 0.2);
   mix-blend-mode: normal;
-  opacity: 0.11;
+  margin-bottom: 18px;
+  margin-left: 15px;
+  margin-right: 35px;
 }
+
+// .subscription-list.statik {
+//   background: #463048;
+//   margin-left: 15px;
+//   margin-right: 50px;
+// }
 
 .name-subscription {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: $color-white;
+  background: rgba(255, 255, 255, 0.17);
   text-align: center;
+  padding: 36px 50px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: $color-white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.price::before {
+  content: "$";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.term {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $color-white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+}
+
+.subscription-hr {
+  width: 60px;
+  height: 5px;
+  background: #8d81ac;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.advantages {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: $color-white;
+  margin-bottom: 83px;
+}
+
+.btn-subsriptoin {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-link_sail {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: $color-white;
+  padding: 15px 38px;
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 15px;
+  margin-bottom: 81px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 481px) {
+  .list-subscription {
+    display: flex;
+    justify-content: center;
+  }
 }
