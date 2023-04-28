@@ -6,10 +6,6 @@
   margin-bottom: 88px;
 }
 
-.container {
-  position: relative;
-}
-
 .inform_revolutionary-tittle {
   color: #635c73;
   font-weight: 700;
@@ -30,40 +26,28 @@
 }
 
 .inform_revolutionary-list {
-  display: grid;
+  display: $flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.inform_revolutionary-iteam {
+  width: 45%;
+  margin-bottom: 20px;
 }
 
 .inform_revolutionary-link {
-  position: relative;
   border: 1px solid #b7b7b7;
   display: inline-flex;
-  justify-content: center;
+  justify-content: $position;
   border-radius: 3px;
 }
 
-.item-1 {
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-}
-
-.item-2 {
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
-}
-
-.item-3 {
-  grid-row: 2 / 3;
-  grid-column: 1 / 3;
-  display: flex;
-  justify-content: center;
-  margin-right: 25px;
-  margin-top: 10px;
-}
-
 .link-img {
-  display: flex;
+  display: $flex;
   margin-right: 5px;
   background: #e3dcdc;
+  border-right: 1px solid #e3dcdc;
 }
 
 .margin {
@@ -81,49 +65,33 @@
   margin: 3px 5px 3px 5px;
 }
 
-.hr_inform-block-iteam-one {
-  position: absolute;
-  height: 22px;
-  top: -7px;
-  left: 70px;
-}
-
-.hr_inform-block-iteam-two {
-  position: absolute;
-  height: 25px;
-  top: -8px;
-  left: 56px;
-}
-
-.hr_inform-block-iteam-three {
-  position: absolute;
-  height: 26px;
-  top: -9px;
-  left: 60px;
-}
-
-.octicon octicon-eye {
-  color: black;
-}
-
-.octicon-eye {
-  color: black;
-}
-
 @media (min-width: 481px) {
   .inform_revolutionary-list {
-    display: flex;
+    display: $flex;
   }
   .inform_revolutionary-list {
-    display: flex;
-    justify-content: center;
+    display: $flex;
+    justify-content: $position;
   }
 
   .inform_revolutionary-iteam {
-    margin-right: 20px;
+    width: 25%;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 941px) {
+  .inform_revolutionary-tittle {
+    font-size: 51px;
+    margin-bottom: 35px;
   }
 
-  .item-3 {
-    margin: 0;
+  .inform_revolutionary-text {
+    font-size: 21px;
+  }
+
+  .inform_revolutionary-iteam {
+    width: 15%;
+    margin: 5px;
   }
 }
