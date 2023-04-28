@@ -25,11 +25,11 @@
   margin-right: 35px;
 }
 
-// .subscription-list.statik {
-//   background: #463048;
-//   margin-left: 15px;
-//   margin-right: 50px;
-// }
+.subscription-list.statik {
+  background: #463048;
+  width: 280px;
+  margin-left: 0;
+}
 
 .name-subscription {
   font-weight: 400;
@@ -86,6 +86,10 @@
   margin-bottom: 83px;
 }
 
+.marg {
+  margin-bottom: 100px;
+}
+
 .btn-subsriptoin {
   display: flex;
   justify-content: center;
@@ -108,5 +112,55 @@
   .list-subscription {
     display: flex;
     justify-content: center;
+  }
+
+  .subscription-tittle {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 83px;
+  }
+
+  .subscription-list {
+    max-width: 257px;
+  }
+
+  .subscription-list.statik {
+    max-width: 300px;
+    max-height: 670px;
+  }
+
+  .subscription-list.position {
+    margin-left: -5px;
+    margin-top: 30px;
+    max-height: 600px;
+  }
+}
+
+@media (min-width: 981px) {
+  .block-subscription {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 94px;
+  }
+
+  .subscription-tittle {
+    font-size: 48px;
+  }
+
+  .subscription-list {
+    max-width: 300px;
+    max-height: 545px;
+  }
+
+  .subscription-list.statik {
+    max-width: 250px;
+    max-height: 600px;
+    margin-top: -20px;
+  }
+
+  .subscription-list.position {
+    margin-top: 0;
+    max-height: 545px;
   }
 }
