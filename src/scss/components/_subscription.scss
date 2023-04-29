@@ -2,7 +2,6 @@
 @import "../abstracts/mixin";
 
 .subscription {
-  margin-top: 14px;
   background: url(/src/img/subscription/baground-subscription.jpg);
 }
 
@@ -134,7 +133,6 @@
 
 @media (min-width: 991px) {
   .subscription {
-    margin-top: $zero;
     flex-wrap: nowrap;
   }
 
