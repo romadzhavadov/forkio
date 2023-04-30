@@ -1,0 +1,98 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+.revolutionary {
+  margin-top: 129px;
+  margin-bottom: 88px;
+}
+
+.inform_revolutionary-tittle {
+  color: #635c73;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 28px;
+  text-transform: $uppercase;
+  margin-bottom: 27px;
+  text-align: $position;
+}
+
+.inform_revolutionary-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #323232;
+  text-align: $position;
+  margin-bottom: 36px;
+}
+
+.inform_revolutionary-list {
+  display: $flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.inform_revolutionary-iteam {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.inform_revolutionary-link {
+  border: 1px solid #b7b7b7;
+  display: inline-flex;
+  justify-content: $position;
+  border-radius: 3px;
+}
+
+.link-img {
+  display: $flex;
+  margin-right: 5px;
+  background: #e3dcdc;
+  border-right: 1px solid #e3dcdc;
+}
+
+.margin {
+  margin: 5px 5px 3px 5px;
+}
+
+.inform_revolutionary-name {
+  margin-right: 5px;
+  margin-top: 3px;
+  color: #000;
+}
+
+.inform_revolutionary-numder {
+  color: #000;
+  margin: 3px 5px 3px 5px;
+}
+
+@media (min-width: 481px) {
+  .inform_revolutionary-list {
+    display: $flex;
+  }
+  .inform_revolutionary-list {
+    display: $flex;
+    justify-content: $position;
+  }
+
+  .inform_revolutionary-iteam {
+    width: 25%;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 941px) {
+  .inform_revolutionary-tittle {
+    font-size: 51px;
+    margin-bottom: 35px;
+  }
+
+  .inform_revolutionary-text {
+    font-size: 21px;
+  }
+
+  .inform_revolutionary-iteam {
+    width: 15%;
+    margin: 5px;
+  }
+}
