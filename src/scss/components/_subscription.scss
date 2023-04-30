@@ -2,8 +2,7 @@
 @import "../abstracts/mixin";
 
 .subscription {
-  background: url(/src/img/subscription/baground-subscription.jpg);
-  padding-bottom: 90px;
+  background-image: url(../img/subscription/baground-subscription.jpg);
 }
 
 .subscription-tittle {
