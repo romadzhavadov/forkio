@@ -3,6 +3,7 @@
 
 .subscription {
   background: url(/src/img/subscription/baground-subscription.jpg);
+  padding-bottom: 90px;
 }
 
 .subscription-tittle {
@@ -116,6 +117,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 15px;
   }
 
   .subscription-list {
@@ -123,11 +125,8 @@
   }
 
   .subscription-list.statik {
-    width: 45%;
-  }
-
-  .subscription-list.position {
-    margin: 25px;
+    width: 40%;
+    transform: scale(1.07);
   }
 }
 
@@ -150,7 +149,7 @@
   }
 
   .subscription-list.statik {
-    width: 28%;
+    width: 25%;
     @include margin();
   }
 
